@@ -1,10 +1,13 @@
 
 import './App.css';
+import JsxStructure from './JsxStructure';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello ! ReactJs</h1>
+      <JsxStructure/>
+      <JsxStructure/>
+      <JsxStructure/>
     </div>
   );
 }
