@@ -32,5 +32,39 @@
     "profileMessage": "Message",
     "profileFollowing": "Following",
     "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
+  },
+  {
+    "profileType": "Pro",
+    "profilePhoto": "https://robohash.org/a",
+    "profileName": "Ricky Park",
+    "profilePlace": "New York",
+    "profileStatus1": "User interface designer and ",
+    "profileStatus2": " front-end developer",
+    "profileMessage": "Message",
+    "profileFollowing": "Following",
+    "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
+  },
+
+  {
+    "profileType": "Beginer",
+    "profilePhoto": "https://robohash.org/b",
+    "profileName": "Al-Amin",
+    "profilePlace": "Dhaka",
+    "profileStatus1": "Oracle Database and ",
+    "profileStatus2": " front-end developer",
+    "profileMessage": "Message",
+    "profileFollowing": "Following",
+    "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
+  },
+  {
+    "profileType": "Intermediate",
+    "profilePhoto": "https://robohash.org/c",
+    "profileName": "Abid",
+    "profilePlace": "Narayanganj",
+    "profileStatus1": "Java and ",
+    "profileStatus2": " front-end developer",
+    "profileMessage": "Message",
+    "profileFollowing": "Following",
+    "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
   }
 ]
