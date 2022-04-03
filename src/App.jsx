@@ -2,12 +2,14 @@
 import './App.css';
 import ProfileCard from './components/ProfileCard';
 import List from './components/UniqueList/List';
+import NestedMapping from './components/UniqueList/NestedMapping';
 import Data from './Data';
 
 function App() {
 
   return (
     <div className="App">
+      < NestedMapping  />
       <List/>
      {Data.map((item,index) => <ProfileCard  
      key={index} 
