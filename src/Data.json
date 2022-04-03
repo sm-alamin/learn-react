@@ -1,0 +1,36 @@
+[
+  {
+    "profileType": "Pro",
+    "profilePhoto": "https://randomuser.me/api/portraits/women/79.jpg",
+    "profileName": "Ricky Park",
+    "profilePlace": "New York",
+    "profileStatus1": "User interface designer and ",
+    "profileStatus2": " front-end developer",
+    "profileMessage": "Message",
+    "profileFollowing": "Following",
+    "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
+  },
+
+  {
+    "profileType": "Beginer",
+    "profilePhoto": "https://randomuser.me/api/portraits/women/79.jpg",
+    "profileName": "Al-Amin",
+    "profilePlace": "Dhaka",
+    "profileStatus1": "Oracle Database and ",
+    "profileStatus2": " front-end developer",
+    "profileMessage": "Message",
+    "profileFollowing": "Following",
+    "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
+  },
+  {
+    "profileType": "Intermediate",
+    "profilePhoto": "https://randomuser.me/api/portraits/women/79.jpg",
+    "profileName": "Abid",
+    "profilePlace": "Narayanganj",
+    "profileStatus1": "Java and ",
+    "profileStatus2": " front-end developer",
+    "profileMessage": "Message",
+    "profileFollowing": "Following",
+    "skills": ["UI/ UX ", "Frontend Development ", "Html ", "Php ", "Laravel"]
+  }
+]

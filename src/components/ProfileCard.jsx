@@ -1,21 +1,7 @@
 import React from 'react';
 
-const ProfileCard = () => {
-    const profileType = "Pro";
-    const profilePhoto = "https://randomuser.me/api/portraits/women/79.jpg";
-    const profileName = "Ricky Park";
-    const profilePlace = "New York";
-    const profileStatus1 = "User interface designer and ";
-    const profileStatus2 = " front-end developer";
-    const profileMessage = "Message";
-    const profileFollowing = "Following"
-    const skills =[
-        "UI/ UX ",
-        "Frontend Development ",
-        "Html ",
-        "Php ",
-        "Laravel"
-    ]
+const ProfileCard = (props) => {
+    const  {profileType , profilePhoto, profileName,profilePlace,profileStatus1,profileStatus2,profileMessage,profileFollowing,skills} = props;
 
 
   return (
