@@ -4,23 +4,21 @@ import ProfileCard from './components/ProfileCard';
 import Data from './Data';
 
 function App() {
-  let items =[];
-  for (let i =0; i < Data.length ; i++) {
-    items.push(<ProfileCard  
-      profileType ={Data[i].profileType} 
-      profilePhoto ={Data[i].profilePhoto} 
-       profileName = {Data[i].profileName} 
-     profilePlace ={Data[i].profilePlace} 
-     profileStatus1 = {Data[i].profileStatus1} 
-     profileStatus2 = {Data[i].profileStatus2} 
-     profileMessage = {Data[i].profileMessage} 
-     profileFollowing = {Data[i].profileFollowing} 
-     skills = {Data[i].skills} 
-      />)
-  }
+
   return (
     <div className="App">
-     {items}
+     {Data.map((item,index) => <ProfileCard  
+     key={index} 
+      profileType ={item.profileType} 
+      profilePhoto ={item.profilePhoto} 
+       profileName = {item.profileName} 
+     profilePlace ={item.profilePlace} 
+     profileStatus1 = {item.profileStatus1} 
+     profileStatus2 = {item.profileStatus2} 
+     profileMessage = {item.profileMessage} 
+     profileFollowing = {item.profileFollowing} 
+     skills = {item.skills} 
+      /> )}
     
     </div>
   );
