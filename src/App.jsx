@@ -1,13 +1,13 @@
 
 import './App.css';
-import JsxStructure from './JsxStructure';
+import ProfileCard from './components/ProfileCard';
 
 function App() {
   return (
     <div className="App">
-      <JsxStructure/>
-      <JsxStructure/>
-      <JsxStructure/>
+      <ProfileCard/>
+      <ProfileCard/>
+      <ProfileCard/>
     </div>
   );
 }
