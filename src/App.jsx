@@ -1,12 +1,14 @@
 
 import './App.css';
 import ProfileCard from './components/ProfileCard';
+import List from './components/UniqueList/List';
 import Data from './Data';
 
 function App() {
 
   return (
     <div className="App">
+      <List/>
      {Data.map((item,index) => <ProfileCard  
      key={index} 
       profileType ={item.profileType} 
