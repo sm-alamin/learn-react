@@ -19,17 +19,17 @@ const ProfileCard = () => {
 
 
   return (
-        <div className="card-container">
-	        <span class="pro">{profileType}</span>
-	            <img class="round" src={profilePhoto} alt="user" />
+        <div className="cardContainer">
+	        <span className="pro">{profileType}</span>
+	            <img className="round" src={profilePhoto} alt="user" />
 	            <h3>{profileName}</h3>
 	            <h6>{profilePlace}</h6>
 	            <p>{profileStatus1} <br/> {profileStatus2} </p>
-	        <div class="buttons">
-		        <button  class="primary">{profileMessage}</button>
-		        <button class="primary ghost">{profileFollowing}</button>
+	        <div className="buttons">
+		        <button  className="primary">{profileMessage}</button>
+		        <button className="primary ghost">{profileFollowing}</button>
 	        </div>
-	        <div class="skills">
+	        <div className="skills">
                 <h6>Skills</h6>
                 <ul>
                     <li>{skills}</li>
