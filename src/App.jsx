@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import BootstrapDesign from './components/BootstrapDesign/BootstrapDesign';
 import Card from './components/ClassComponent/Card';
+import EventHandler from './components/Event/EventHandler';
 import ProfileCard from './components/ProfileCard';
+import RenderingCondition from './components/RenderingCondition';
 import State from './components/State/State';
 import List from './components/UniqueList/List';
 import NestedMapping from './components/UniqueList/NestedMapping';
@@ -12,6 +14,8 @@ function App() {
 
   return (
     <div className="App">
+      <EventHandler />
+      <RenderingCondition />
       <State />
        <BootstrapDesign  />
       <Card name=" Sheikh Mohammad Al Amin" title="teacher"  />
