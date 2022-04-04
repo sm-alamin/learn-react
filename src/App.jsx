@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import BootstrapDesign from './components/BootstrapDesign/BootstrapDesign';
 import Card from './components/ClassComponent/Card';
+import BindEvent from './components/Event/BindEvent';
 import EventHandler from './components/Event/EventHandler';
 import ProfileCard from './components/ProfileCard';
 import RenderingCondition from './components/RenderingCondition';
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <BindEvent />
       <EventHandler />
       <RenderingCondition />
       <State />
