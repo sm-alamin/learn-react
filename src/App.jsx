@@ -1,5 +1,6 @@
 
 import './App.css';
+import Card from './components/ClassComponent/Card';
 import ProfileCard from './components/ProfileCard';
 import List from './components/UniqueList/List';
 import NestedMapping from './components/UniqueList/NestedMapping';
@@ -9,6 +10,8 @@ function App() {
 
   return (
     <div className="App">
+
+      <Card name=" Sheikh Mohammad Al Amin" title="teacher"  />
       < NestedMapping  />
       <List/>
      {Data.map((item,index) => <ProfileCard  
