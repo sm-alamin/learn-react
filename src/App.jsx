@@ -1,5 +1,6 @@
 
 import './App.css';
+import BootstrapDesign from './components/BootstrapDesign/BootstrapDesign';
 import Card from './components/ClassComponent/Card';
 import ProfileCard from './components/ProfileCard';
 import List from './components/UniqueList/List';
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <div className="App">
-
+      
+       <BootstrapDesign  />
       <Card name=" Sheikh Mohammad Al Amin" title="teacher"  />
       < NestedMapping  />
       <List/>
