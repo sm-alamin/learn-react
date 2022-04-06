@@ -34,7 +34,7 @@ function Form1() {
            </div>
            <div className='formGroup'> 
            <label>Email: </label>
-            <input type="email" email="email" value={email} onChange={handleEmailChange} required />
+            <input type="email" name="email" value={email} onChange={handleEmailChange} required />
            </div>
            <div className='formGroup'>
            <label>Password: </label>

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Form2 from './components/Form/Form2';
+import ImportantForm from './components/Form/ImportantForm';
 
 function App() {
 
   return (
     <div className="App">
-      <Form2 />
+      <ImportantForm />
 
       {/* <LearnHooks /> */}
       {/* <BindEvent />
