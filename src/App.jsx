@@ -1,21 +1,13 @@
 import React from 'react';
 import './App.css';
-import BootstrapDesign from './components/BootstrapDesign/BootstrapDesign';
-import Card from './components/ClassComponent/Card';
-import BindEvent from './components/Event/BindEvent';
-import EventHandler from './components/Event/EventHandler';
-import ProfileCard from './components/ProfileCard';
-import RenderingCondition from './components/RenderingCondition';
-import State from './components/State/State';
-import List from './components/UniqueList/List';
-import NestedMapping from './components/UniqueList/NestedMapping';
-import Data from './Data';
+import LearnHooks from './components/Hooks/LearnHooks';
 
 function App() {
 
   return (
     <div className="App">
-      <BindEvent />
+      <LearnHooks />
+      {/* <BindEvent />
       <EventHandler />
       <RenderingCondition />
       <State />
@@ -34,7 +26,7 @@ function App() {
      profileMessage = {item.profileMessage} 
      profileFollowing = {item.profileFollowing} 
      skills = {item.skills} 
-      /> )}
+      /> )} */}
     
     </div>
   );
