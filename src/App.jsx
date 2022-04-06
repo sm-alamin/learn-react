@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
-import ImportantForm from './components/Form/ImportantForm';
+import Child from './components/PassData/Child';
 
 function App() {
+const data ="Hello! Child, How Are You?"
 
+const onReplyData =(childData) => {
+  console.log(childData)
+}
   return (
     <div className="App">
-      <ImportantForm />
+      <Child data={data}  onReplyData={onReplyData}/>
+      {/* <ImportantForm /> */}
 
       {/* <LearnHooks /> */}
       {/* <BindEvent />
