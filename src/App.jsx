@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import LearnHooks from './components/Hooks/LearnHooks';
+import Form1 from './components/Form/Form1';
 
 function App() {
 
   return (
     <div className="App">
-      <LearnHooks />
+      <Form1 />
+
+      {/* <LearnHooks /> */}
       {/* <BindEvent />
       <EventHandler />
       <RenderingCondition />
